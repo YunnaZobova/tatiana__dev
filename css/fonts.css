@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Avanti';
+	src: url('../fonts/Avanti.eot');
+	src: url('../fonts/Avanti.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Avanti.woff2') format('woff2'),
+		url('../fonts/Avanti.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Avanti';
+	src: url('../fonts/AvantiBold.eot');
+	src: url('../fonts/AvantiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvantiBold.woff2') format('woff2'),
+		url('../fonts/AvantiBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}

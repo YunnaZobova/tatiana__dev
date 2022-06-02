@@ -1,0 +1,135 @@
+/*----------------HEADER---ПЕРВЫЙ БЛОК----------------*/
+
+.header {
+	padding: 3px 0;
+	margin: 0px auto;
+	background-color: #000000;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		margin: 10px 0;
+	}
+}
+
+.menu {	
+	&__list {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__link {
+		margin-right: 15px;
+		width: 55px;
+		height: 55px;
+		background-color: #ffffff;
+		border-radius: 50%;
+	}
+
+	&__icon {
+		display: block;
+		max-width: 35px;
+		height: 35px;
+		margin: 10px auto;
+	}
+}
+
+// @media (max-width: 767px) {
+// 	.header {
+// 		&__menu {
+// 			.h6 {
+// 				font-size: @size-18;
+// 			}
+// 		}
+
+// 		&__content {
+// 			justify-content: space-between;
+// 		}
+
+// 		&__burger {
+// 			display: block;
+// 			position: relative;
+// 			width: 30px;
+// 			height: 22px;
+// 			z-index: 3;
+// 			margin: 0;
+// 			padding: 0;
+// 		}
+
+// 		&__burger.active:before {
+// 			transform: rotate(45deg);
+// 			top: @size-10;
+// 		}
+
+// 		&__burger.active:after {
+// 			transform: rotate(-45deg);
+// 			bottom: @size-10;
+// 		}
+
+// 		&__burger.active span {
+// 			display: none;
+// 		}
+
+// 		&__burger:before,
+// 		&__burger:after,
+// 		&__burger span {
+// 			content: '';
+// 			background-color: @grey-text;
+// 			position: absolute;
+// 			width: 100%;
+// 			height: @size-02;
+// 			left: 0;
+// 			transition: all 0.3s ease 0s;
+// 		}
+
+// 		&__burger span {
+// 			top: @size-10;
+// 		}
+
+// 		&__burger:before {
+// 			top: 0;
+// 		}
+
+// 		&__burger:after {
+// 			bottom: 0;
+// 		}
+// 	}
+
+// 	.menu {
+// 		display: none;
+
+// 		&__link {
+// 			width: 90%;
+// 			border-radius: 5px;
+// 			margin-bottom: @size-14;
+// 			padding: @size-12 0;
+// 			background-color: @gray-bg;
+// 			text-align: center;
+// 			box-shadow: 0 4px 2px rgba(0, 0, 0, 0.13);
+// 		}
+
+// 		&__link:hover {
+// 			color: @black-title;
+// 		}
+// 	}
+
+// 	.menu.active {
+// 		display: flex;
+// 		flex-direction: column;
+// 		position: fixed;
+// 		top: @size-80;
+// 		width: 50%;
+// 		margin-left: 50%;
+// 		height: auto;
+// 		transition: all 0.3s ease 0s;
+// 	}
+
+// 	body.lock {
+// 		overflow: hidden;
+// 	}
+
+// }
